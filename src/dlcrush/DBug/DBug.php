@@ -7,7 +7,7 @@
  *
  * @version  v1.0
  */
-class dBug {
+class DBug {
 	
 	private $xmlDepth=array();
 	private $xmlCData;
