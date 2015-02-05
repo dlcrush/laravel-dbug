@@ -11,7 +11,7 @@
      * @author David Crush
      * @verson v1.0
      */
-    class dBugServiceProvider extends ServiceProvider 
+    class DBugServiceProvider extends ServiceProvider 
     {
         /**
          * Registers the dBug object
@@ -19,8 +19,8 @@
          * @return Auth instance of the dBug object
          */
         public function register() {
-            \App::bind('dBug', function(){
-                return new dBug;
+            \App::bind('DBug', function(){
+                return new DBug;
             });
         }
     }
