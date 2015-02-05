@@ -18,7 +18,7 @@ This will walk you through how to set up the package.
 'dlcrush\DBug\DBugServiceProvider',
 ```
 
-4) Add the Facade to the facade array in `app/config/app.php`
+4) Add alias in `app/config/app.php`
 
 ```php
 'DBug'			  => 'dlcrush\DBug\Facades\DBug',
