@@ -5,7 +5,7 @@
  *
  * Dumps out variables in a nice format
  *
- * @version  v0.1.0
+ * @version  v1.0
  */
 class dBug {
 	
