@@ -1,0 +1,26 @@
+{
+    "name": "dlcrush/DBug",
+    "description": "A library for nicer looking variable dumps comparable to ColdFusion's cfdump.",
+    "keywords": [
+    	"laravel",
+    	"debug",
+    	"dbug",
+    	"dump",
+    	"cfdump"
+    ],
+    "authors": [
+        {
+            "name": "David Crush",
+            "email": "dlcrush@mail.roanoke.edu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "Laravel/Laravel": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "dlcrush\\": "src/"
+        }
+    }
+}
