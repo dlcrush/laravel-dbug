@@ -31,7 +31,7 @@ class dBug {
 	 * @param  boolean $bCollapsed 
 	 * @return HTML the HTML output of the variable dump
 	 */
-	function dBug($var='',$forceType='',$bCollapsed=false) {
+	function DBug($var='',$forceType='',$bCollapsed=false) {
 		if ($var === '') {
 			return;
 		}
