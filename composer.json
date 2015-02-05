@@ -1,5 +1,5 @@
 {
-    "name": "dlcrush/DBug",
+    "name": "dlcrush/laravel-dbug",
     "description": "A library for nicer looking variable dumps comparable to ColdFusion's cfdump.",
     "keywords": [
     	"laravel",
