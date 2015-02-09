@@ -5,7 +5,7 @@
  *
  * Dumps out variables in a nice format
  *
- * @version  v1.0
+ * @version  v1.1.0
  */
 class DBug {
 	
@@ -27,11 +27,12 @@ class DBug {
 	 * Dumps out variable in a nice format
 	 * 
 	 * @param  string  $var        the variable to dump out
+	 * @param  boolean $die        whether or not to die after dumping
 	 * @param  string  $forceType  the type to force the variable as
 	 * @param  boolean $bCollapsed 
 	 * @return HTML the HTML output of the variable dump
 	 */
-	function DBug($var='',$forceType='',$bCollapsed=false) {
+	function DBug($var='',$die=false,$forceType='',$bCollapsed=false) {
 		if ($var === '') {
 			return;
 		}
@@ -47,6 +48,10 @@ class DBug {
 			$this->{"varIs".ucfirst($forceType)}($var);
 		else
 			$this->checkType($var);
+
+		if ($die) {
+			die();
+		}
 	}
 
 	//get variable name

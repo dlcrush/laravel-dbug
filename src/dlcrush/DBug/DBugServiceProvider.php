@@ -9,7 +9,7 @@
      * Service provider for dBug object
      *
      * @author David Crush
-     * @verson v1.0
+     * @verson v1.1.0
      */
     class DBugServiceProvider extends ServiceProvider 
     {

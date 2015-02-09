@@ -8,7 +8,7 @@
 	 * dBug Facade
 	 *
 	 * @author David Crush
-	 * @version v1.0
+	 * @version v1.1.0
 	 */
 	class DBug extends Facade
 	{
