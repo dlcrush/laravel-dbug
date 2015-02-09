@@ -33,3 +33,9 @@ To dump out a variable, do the following:
 ```php
 DBug::DBug($var);
 ```
+
+To dump and then die, do the following:
+
+```php
+DBug::DBug($var, true);
+```
