@@ -10,7 +10,7 @@ This will walk you through how to set up the package.
 
 1) Add the following to your composer.json under require:
 
-`"dlcrush/DBug": "~1.1.0"`
+`"dlcrush/laravel-dbug": "~1.1.0"`
 
 2) Composer update
 
